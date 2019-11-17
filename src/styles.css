@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  font-family: 'Varela', sans-serif;
+  line-height: 1.4;
+  color: #2b2b2b;
+}
+
+body {
+  font-size: 14px;
+  padding: 0;
+}
+
+/* Layout */
+main {
+  margin: 0 auto 20px;
+  max-width: 640px;
+  padding: 0 20px;
+}
+
+/* Header */
+.top {
+  background-color: #004466;
+  padding: 30px 20px 20px;
+  text-align: center;
+}
+.top * {
+  color: #eaeef1;
+}
+
+header {
+  margin: 0 auto;
+  max-width: 640px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.name {
+  display: inline-block;
+  font-size: 32px;
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 8px;
+}
+.name:after {
+  border-bottom: 3px solid #fff;
+  bottom: 0px;
+  content: '';
+  left: 0;
+  margin: 0 25px;
+  opacity: 0.15;
+  position: absolute;
+  right: 0;
+}
+
+.title {
+  font-size: 18px;
+}
+
+.contact {
+  background: #132638;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+.contact li {
+  display: inline-block;
+  font-style: normal;
+  list-style: none;
+  margin: 0;
+  max-width: 640px;
+  text-align: left;
+}
+.contact li,
+.contact a {
+  color: #d6dde3;
+}
+.contact li:not(:last-child):after {
+  content: ' · ';
+}
+
+.soundbite {
+  font-style: italic;
+  font-size: 14px;
+  text-align: center;
+  margin: 20px 0 0;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  color: #2b2b2b;
+}
+
+strong,
+em {
+  color: inherit;
+  font-family: inherit;
+}
+
+h1,
+h2,
+h3 {
+  color: #004466;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: normal;
+  position: relative;
+}
+
+h1 {
+  display: none;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+h4,
+h5,
+h6 {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 15px 0 5px;
+}
+
+h2:after {
+  content: '';
+  display: block;
+  border-bottom: 2px solid #004466;
+  margin: 5px auto 10px;
+}
+
+ul {
+  margin-bottom: 10px;
+}
+
+/* Alternative links */
+.alternative {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.alternative a {
+  color: #666;
+  font-size: 12px;
+}
+
+/* PDF and print */
+.break {
+  page-break-before: always;
+}
+
+@page {
+  margin: 50px 0;
+}
+
+@page :first {
+  margin-top: 0;
+}
+
+@media print {
+  .top {
+    background-color: none;
+    padding-bottom: 0;
+  }
+  .top *,
+  .contact li,
+  .contact li *,
+  .soundbite {
+    color: #2b2b2b !important;
+  }
+  .contact li,
+  .soundbite {
+    margin: 0;
+  }
+}
