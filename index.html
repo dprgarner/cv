@@ -2,6 +2,7 @@
 <html>
   <head>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Varela|Open+Sans|Ubuntu|Bebas+Neue&display=swap">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <style type="text/css">
       * {
   margin: 0;
@@ -11,12 +12,12 @@
 }
 
 body {
-  font-size: 14px;
   padding: 0;
 }
 
 /* Layout */
 main {
+  font-size: 14px;
   margin: 0 auto 20px;
   max-width: 640px;
   padding: 0 20px;
@@ -42,9 +43,10 @@ header {
   display: inline-block;
   font-size: 32px;
   font-weight: bold;
-  position: relative;
   margin-bottom: 8px;
+  position: relative;
 }
+
 .name:after {
   border-bottom: 3px solid #fff;
   bottom: 0px;
@@ -194,6 +196,21 @@ ul {
   }
 }
 
+/* Mobile stylings */
+@media screen and (max-width: 500px) {
+  main {
+    max-width: 100%;
+  }
+
+  h1,
+  h2 {
+    padding-top: 16px;
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+}
     </style>
     <title>
       David Garner - Software Developer
