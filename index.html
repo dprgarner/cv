@@ -2,7 +2,6 @@
 <html>
   <head>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Varela|Open+Sans|Ubuntu|Bebas+Neue&display=swap">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
     <style type="text/css">
       * {
   margin: 0;
@@ -12,12 +11,12 @@
 }
 
 body {
+  font-size: 14px;
   padding: 0;
 }
 
 /* Layout */
 main {
-  font-size: 14px;
   margin: 0 auto 20px;
   max-width: 640px;
   padding: 0 20px;
@@ -43,17 +42,16 @@ header {
   display: inline-block;
   font-size: 32px;
   font-weight: bold;
-  margin-bottom: 8px;
   position: relative;
+  margin-bottom: 16px;
 }
-
 .name:after {
-  border-bottom: 3px solid #fff;
+  border-bottom: 1px solid #fff;
   bottom: 0px;
   content: '';
   left: 0;
-  margin: 0 25px;
-  opacity: 0.15;
+  width: 48px;
+  margin: -4px auto;
   position: absolute;
   right: 0;
 }
@@ -64,7 +62,7 @@ header {
 
 .contact {
   background: #132638;
-  margin: 0;
+  margin: 0 0 20px;
   padding: 10px;
   text-align: center;
 }
@@ -88,7 +86,7 @@ header {
   font-style: italic;
   font-size: 14px;
   text-align: center;
-  margin: 20px 0 0;
+  margin: 0;
 }
 
 /* Typography */
@@ -110,7 +108,8 @@ em {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   color: #004466;
   font-family: 'Ubuntu', sans-serif;
   font-weight: normal;
@@ -144,11 +143,17 @@ h6 {
   margin: 15px 0 5px;
 }
 
+hr,
 h2:after {
+  border: 0;
+  border-bottom: 2px solid #004466;
   content: '';
   display: block;
-  border-bottom: 2px solid #004466;
   margin: 5px auto 10px;
+}
+
+hr {
+  width: 25%;
 }
 
 ul {
@@ -196,21 +201,10 @@ ul {
   }
 }
 
-/* Mobile stylings */
-@media screen and (max-width: 500px) {
-  main {
-    max-width: 100%;
-  }
-
-  h1,
-  h2 {
-    padding-top: 16px;
-  }
-
-  ul {
-    padding-left: 20px;
-  }
+code {
+  font-family: 'Courier New', Courier, monospace;
 }
+
     </style>
     <title>
       David Garner - Software Developer
@@ -234,79 +228,83 @@ ul {
     </ul>
 
     <main>
-      <div class="soundbite">Full-stack web developer with a focus on front-end web development</div>
+      <!--
+      <div class="soundbite">Technical lead with a focus on front-end web development</div>
+      -->
 
-      <h2>
-        Overview
-      </h2>
       <p>
-        I&#x27;m a software developer based in London, currently working as a technical team lead and a full-stack web developer. My main interests are in front-end development, in particular with modern JavaScript tools and libraries such as React and Redux, but I also have considerable professional experience in back-end development with Django, Python, and Node.js. I place a strong emphasis on quality in all of my code, and consider automated testing and code review to be essential to the development process.
+        I&#x27;m a full-stack web developer and technical team lead based in London. My primary focus is front-end development with React, but I also have considerable professional experience in back-end development with Django, Python, and Node.js. I place a strong emphasis on quality in all of my code, and consider unit testing and code review to be essential parts of the development process.
 
       </p>
 
       <h1 id="david-garner">David Garner</h1>
-<h2 id="2019present-engineering-lead-at-mintel-london-uk"><strong>2019&ndash;present: Engineering Lead</strong> at Mintel, London, UK</h2>
-<h3 id="technical-team-lead-for-a-search-app">Technical Team Lead for a Search App</h3>
+<h2 id="skills">Skills</h2>
+<ul>
+<li>Front-end: <strong>React, Redux, RxJS, TypeScript</strong>, SCSS, Webpack, jQuery, Recent ECMAScript Features, Responsive Design</li>
+<li>Back-end: <strong>Python, Node.js, Django, Docker</strong>, Express, Solr, ElasticSearch</li>
+<li>AWS: <strong>CloudFormation, CloudWatch, Fargate</strong>, CloudFront, Lambda</li>
+<li>Testing: <strong>Mocha, Jest, Selenium</strong>, TDD, BDD, pytest</li>
+<li>Source Control and CI/CD: <strong>Git</strong>, Jenkins, TeamCity, Gitlab CI, Subversion</li>
+<li>Command line tools: <strong>Vim</strong>, Bash, common Unix tools (<code>grep</code>, <code>sed</code>, <code>make</code>, etc.)</li>
+<li>Process Management: Jira, Trello, Scrum, Kanban</li>
+</ul>
+<h2 id="employment-history">Employment History</h2>
+<h3 id="2020present-senior-frontend-lead-then-technical-lead-at-qmetric-london-uk"><strong>2020&ndash;present: Senior Frontend Lead</strong>, then <strong>Technical Lead</strong> at QMetric, London, UK</h3>
+<ul>
+<li>Took ownership of the JavaScript codebase within a home insurance platform, built with Domain Driven Design in a cloud-native, event-driven, microservice architecture</li>
+<li>Designed and prototyped a Microfrontend architecture to support parallel teams developing the same web app</li>
+<li>Collaborated with the infrastructure team to containerise the legacy JavaScript services to run in AWS Fargate</li>
+<li>Set and assessed technical tests and interviewed candidate frontend developers</li>
+</ul>
+<hr>
+<h3 id="201920-engineering-lead-at-mintel-london-uk"><strong>2019&ndash;20: Engineering Lead</strong> at Mintel, London, UK</h3>
+<h4 id="technical-team-lead-for-a-search-app">Technical Team Lead for a Search App</h4>
 <ul>
 <li>Architected the front-end build for a revamped single-page search app</li>
-<li>Collaborated with Product Development and Project Leads to ensure the technical requirements for requested features were considered, planned-out, and communicated with the developers in London, Chicago, and Shanghai</li>
+<li>Collaborated with Product Development and Project Leads to ensure the technical requirements for requested features were considered, planned-out, and communicated with developers in London, Chicago, and Shanghai</li>
 <li>Held responsibility for technical direction, tech-debt prioritisation, and code quality standards on the project</li>
 </ul>
-<h3 id="code-owner-for-internal-front-end-libraries">Code Owner for Internal Front-End Libraries</h3>
+<h4 id="code-owner-for-internal-front-end-libraries">Code Owner for Internal Front-End Libraries</h4>
 <ul>
 <li>Helped implement the company&#39;s design system using internal React libraries</li>
-<li>Held responsibility for designing and reviewing component APIs, emphasising backwards-compatibility and extensibility</li>
+<li>Designed and reviewed component APIs, emphasising backwards-compatibility and extensibility</li>
 <li>Ran a half-day introductory workshop on React and working on our internal UI Components library</li>
 </ul>
-<h3 id="other">Other</h3>
-<ul>
-<li>Joined interview panels for phone and in-person interviews for potential interns, graduate developers, and senior front-end developers</li>
-<li>Created a roadmap for refactoring a complex content editor on our CMS into a new app using React and ProseMirror</li>
-</ul>
-<h2 id="201519-software-developer-at-mintel-london-uk"><strong>2015&ndash;19: Software Developer</strong> at Mintel, London, UK</h2>
+<hr>
+<h3 id="201519-software-developer-at-mintel-london-uk"><strong>2015&ndash;19: Software Developer</strong> at Mintel, London, UK</h3>
 <p>Gained a wide range of experience with legacy and new codebases, primarily with React front-ends and Django back-ends, specialising in front-end development</p>
 <!-- <div class="break" /> -->
 
-<h3 id="apps-projects-and-tools">Apps, Projects, and Tools</h3>
+<h4 id="apps-projects-and-tools">Apps, Projects, and Tools</h4>
 <ul>
 <li>Built a dashboard app for displaying and collating direct marketing data with a team based in Chicago</li>
 <li>Prototyped and created an app for dynamically collating and crossing consumer survey data in tables and charts</li>
-<li>Created an internal Python library for visual regressions testing with Selenium</li>
-<li>Created a Node.js tool for capturing and imitating HTTP requests for use with Selenium testing</li>
-<li>Helped build a search and static content app with a Backbone frontend</li>
+<li>Created internal tools and libraries to help with visual regressions testing and browser-based Selenium testing</li>
 </ul>
-<h3 id="other-1">Other</h3>
+<h4 id="other">Other</h4>
 <ul>
+<li>Joined remote and in-person interview panels for potential interns, graduate developers, and senior front-end developers</li>
 <li>Gave talks on Visual Regressions testing, TypeScript, Styled Components, and design patterns in React</li>
-<li>Was a founding member of the &quot;Front-End Chapter&quot;, a cross US-UK team group dedicated to sharing knowledge and best practices in front-end development</li>
+<li>Helped found the &quot;Front-End Chapter&quot;, a cross US-UK team group dedicated to sharing knowledge and best practices in front-end development</li>
 <li>Organised and participated in cross-company coding competitions on competitive game-playing AIs and image classification challenges</li>
-<li>Ran a lunchtime &quot;coding club&quot; teaching front-end frameworks and TDD</li>
-</ul>
-<h2 id="skills">Skills</h2>
-<ul>
-<li>Front-end: <strong>React, Redux, SCSS</strong>, Webpack, Node.js, jQuery, Recent ECMAScript Features, Responsive Design</li>
-<li>Back-end: <strong>Python, Django, Docker</strong>, Solr, ElasticSearch</li>
-<li>Testing: <strong>Mocha, Jest, Selenium</strong>, BDD, pytest</li>
-<li>Source Control and CI/CD: <strong>Git</strong>, SVN, Jenkins, Gitlab CI</li>
-<li>Command line tools: <strong>Vim</strong>, Bash, common Unix tools (grep, sed, make...)</li>
-<li>Process Management: Jira, Scrum, Kanban</li>
+<li>Ran a lunchtime &quot;Coding Club&quot; teaching front-end frameworks and TDD</li>
 </ul>
 <h2 id="education">Education</h2>
 <h3 id="201115-queen-mary-university-of-london-london-uk"><strong>2011&ndash;15: Queen Mary University of London</strong>, London, UK</h3>
 <p><strong>Degree: Doctor of Philosophy (PhD)</strong> in Theoretical Physics (String Theory)</p>
 <ul>
-<li>Published <a href="http://inspirehep.net/author/profile/D.Garner.1">peer-reviewed papers</a>, gave talks at multiple academic institutions, taught Physics undergraduates</li>
+<li>Published <a href="https://inspirehep.net/literature?sort=mostrecent&amp;size=25&amp;page=1&amp;q=a%20D.Garner.1">peer-reviewed papers</a>, gave talks at multiple academic institutions, taught Physics undergraduates</li>
 </ul>
 <h3 id="200711-university-of-cambridge-christs-college-cambridge-uk"><strong>2007&ndash;11: University of Cambridge</strong> (Christ&rsquo;s College), Cambridge, UK</h3>
 <p><strong>Degree: BA with MMath, Mathematical Tripos</strong>, First Class/Honours Pass</p>
 <h2 id="interests">Interests</h2>
 <h3 id="coding">Coding</h3>
 <ul>
-<li>Contributed to open source projects involving ESLint and Stylelint</li>
+<li>Contributed to various open source JavaScript projects</li>
 <li>Attended conferences and meetups on TypeScript, React, and GraphQL</li>
-<li>Experimented in personal projects with GraphQL, Apollo Client, RxJS, NumPy, TensorFlow, Haskell, Go</li>
+<li>Experimented in personal projects with GraphQL, Apollo, NumPy, TensorFlow, Haskell</li>
 </ul>
-<h3 id="other-2">Other</h3>
+<h3 id="other-1">Other</h3>
 <p>Board games, metal, folk, sci-fi, running, swimming, craft beer</p>
 
     </main>
