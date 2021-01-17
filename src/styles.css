@@ -38,15 +38,15 @@ header {
   font-size: 32px;
   font-weight: bold;
   position: relative;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 .name:after {
-  border-bottom: 3px solid #fff;
+  border-bottom: 1px solid #fff;
   bottom: 0px;
   content: '';
   left: 0;
-  margin: 0 25px;
-  opacity: 0.15;
+  width: 48px;
+  margin: -4px auto;
   position: absolute;
   right: 0;
 }
@@ -57,7 +57,7 @@ header {
 
 .contact {
   background: #132638;
-  margin: 0;
+  margin: 0 0 20px;
   padding: 10px;
   text-align: center;
 }
@@ -81,7 +81,7 @@ header {
   font-style: italic;
   font-size: 14px;
   text-align: center;
-  margin: 20px 0 0;
+  margin: 0;
 }
 
 /* Typography */
@@ -103,7 +103,8 @@ em {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   color: #004466;
   font-family: 'Ubuntu', sans-serif;
   font-weight: normal;
@@ -137,11 +138,17 @@ h6 {
   margin: 15px 0 5px;
 }
 
+hr,
 h2:after {
+  border: 0;
+  border-bottom: 2px solid #004466;
   content: '';
   display: block;
-  border-bottom: 2px solid #004466;
   margin: 5px auto 10px;
+}
+
+hr {
+  width: 25%;
 }
 
 ul {
@@ -187,4 +194,8 @@ ul {
   .soundbite {
     margin: 0;
   }
+}
+
+code {
+  font-family: 'Courier New', Courier, monospace;
 }

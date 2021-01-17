@@ -27,11 +27,10 @@
     </ul>
 
     <main>
+      <!--
       <div class="soundbite">{{soundbite}}</div>
+      -->
 
-      <h2>
-        Overview
-      </h2>
       <p>
         {{description}}
       </p>
