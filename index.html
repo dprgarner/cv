@@ -149,15 +149,21 @@ h2:after {
   border-bottom: 2px solid #004466;
   content: '';
   display: block;
+}
+h2:after {
   margin: 5px auto 10px;
 }
-
 hr {
+  margin: 20px auto;
   width: 25%;
 }
 
 ul {
   margin-bottom: 10px;
+}
+
+code {
+  font-family: 'Courier New', Courier, monospace;
 }
 
 /* Alternative links */
@@ -181,7 +187,8 @@ ul {
 }
 
 @page {
-  margin: 50px 0;
+  margin: 25px 0;
+
 }
 
 @page :first {
@@ -189,24 +196,11 @@ ul {
 }
 
 @media print {
-  .top {
-    background-color: none;
-    padding-bottom: 0;
+  main {
+    margin-left: 25px;
+    margin-right: 25px;
+    max-width: 100%;
   }
-  .top *,
-  .contact li,
-  .contact li *,
-  .soundbite {
-    color: #2b2b2b !important;
-  }
-  .contact li,
-  .soundbite {
-    margin: 0;
-  }
-}
-
-code {
-  font-family: 'Courier New', Courier, monospace;
 }
 
     </style>
@@ -265,9 +259,9 @@ code {
 <li>I initiated and assisted with multiple tech-debt initiatives, including the migration of the codebase away from RxJS, the Docker containerisation of the legacy services, and the introduction of browser-side error monitoring and reporting.</li>
 <li>I designed, prototyped, and implemented a Microfrontend architecture to support multiple teams developing the same front-end web application in parallel.</li>
 </ul>
+<hr>
 <div class="break" />
 
-<hr>
 <h3 id="201520-software-developer-then-engineering-lead-2019-20-at-mintel-london-uk"><strong>2015&ndash;20: Software Developer</strong>, then <strong>Engineering Lead (2019-20)</strong> at Mintel, London, UK</h3>
 <p>I gained a wide range of experience with legacy and new codebases primarily using React, Redux, Django, Solr, and Elasticsearch. I worked on multiple projects, including:</p>
 <ul>
