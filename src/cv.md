@@ -37,9 +37,9 @@ I took ownership of the JavaScript codebases within a home insurance platform.
 - I initiated and assisted with multiple tech-debt initiatives, including the migration of the codebase away from RxJS, the Docker containerisation of the legacy services, and the introduction of browser-side error monitoring and reporting.
 - I designed, prototyped, and implemented a Microfrontend architecture to support multiple teams developing the same front-end web application in parallel.
 
-<div class="break" />
-
 ---
+
+<div class="break" />
 
 ### **2015–20: Software Developer**, then **Engineering Lead (2019-20)** at Mintel, London, UK
 

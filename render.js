@@ -41,7 +41,7 @@ async function renderPdf(html, outputPath) {
   const page = await browser.newPage();
   await page.setContent(html);
   await page.evaluateHandle('document.fonts.ready');
-  await page.emulateMedia('screen');
+  await page.emulateMedia('print');
   await page.pdf({
     path: outputPath,
     format: 'A4',
