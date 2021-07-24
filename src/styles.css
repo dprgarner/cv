@@ -166,6 +166,10 @@ ul {
   font-size: 12px;
 }
 
+.web {
+  margin-bottom: 20px;
+}
+
 /* PDF and print */
 .break {
   page-break-before: always;
