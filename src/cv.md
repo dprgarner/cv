@@ -35,7 +35,7 @@ I took ownership of the JavaScript codebases within a home insurance platform.
 - I conducted interviews for candidate front-end developers, as well as setting and marking take-home assessments.
 - I organised and conducted onboardings, team training meetings, and technical design discussions within a fully-remote team.
 - I initiated and assisted with multiple tech-debt initiatives, including the migration of the codebase away from RxJS, the Docker containerisation of the legacy services, and the introduction of browser-side error monitoring and reporting.
-- I designed, prototyped, and implemented a Microfrontend architecture to support multiple teams developing the same front-end web application in parallel.
+- I designed, prototyped, and initiated the implementation of a Microfrontend architecture across our front-end codebase to support multiple teams developing the same application in parallel.
 
 ---
 
@@ -45,7 +45,7 @@ I took ownership of the JavaScript codebases within a home insurance platform.
 
 I gained a wide range of experience with legacy and new codebases primarily using React, Redux, Django, Solr, and Elasticsearch. I worked on multiple projects, including:
 - Apps for aggregating and presenting direct marketing data and consumer survey data into tables, charts, and dashboards;
-- Apps for searching, reading, and generating presentations from long-form articles of market research analysis;
+- Apps for searching, reading, and generating presentations from long-form market research articles;
 - Internal tools for browser-based Selenium testing, visual regressions testing, and internal front-end libraries for implementing cross-company stylistic consistency.
 
 #### As the Technical Lead for a search app:
