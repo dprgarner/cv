@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Varela|Open+Sans|Ubuntu|Bebas+Neue&display=swap">
     <style type="text/css">
       * {
@@ -153,6 +154,7 @@ h2:after {
 h2:after {
   margin: 5px auto 10px;
 }
+
 hr {
   margin: 20px auto;
   width: 25%;
@@ -160,6 +162,7 @@ hr {
 
 ul {
   margin-bottom: 10px;
+  padding: 0 0 0 20px;
 }
 
 code {
@@ -195,11 +198,26 @@ code {
   margin-top: 0;
 }
 
+li {
+  margin: 5px 0;
+}
+
 @media print {
   main {
     margin-left: 25px;
     margin-right: 25px;
     max-width: 100%;
+  }
+
+  ul {
+    padding: 0 0 0 40px;
+  }
+}
+
+/* Desktop stuff */
+@media  (min-width: 680px) {
+  ul {
+    padding: 0 0 0 40px;
   }
 }
 
@@ -240,10 +258,10 @@ code {
 <ul>
 <li>Front-end: <strong>React, Redux, TypeScript, RxJS</strong>, Sass, Styled Components, Webpack, Recent ECMAScript Features, Responsive Design, jQuery</li>
 <li>Back-end: <strong>Node.js, Python, Docker</strong>, Express, Django, Solr, Elasticsearch</li>
-<li>AWS: <strong>CloudFormation, CloudWatch, Fargate</strong>, Lambda, CloudFront, Fargate</li>
+<li>AWS: <strong>CloudFormation, CloudWatch, Fargate</strong>, Lambda, CloudFront</li>
 <li>Testing: <strong>Mocha, Jest, Selenium, React Testing Library, TDD</strong>, BDD, pytest</li>
 <li>Source control and CI/CD: <strong>Git</strong>, Jenkins, TeamCity, Gitlab CI, Subversion</li>
-<li>Command line tools: <strong>Vim</strong>, Bash, common CLI utilities (<code>sed</code>, <code>make</code>, <code>grep</code>, etc.)</li>
+<li>Command line tools: <strong>Vim</strong>, Bash, common CLI utilities (<code>sed</code>, <code>grep</code>, <code>make</code>, etc.)</li>
 <li>Process management: Scrum, Kanban, Jira, Trello</li>
 </ul>
 <h2 id="employment-history">Employment History</h2>
@@ -281,8 +299,8 @@ code {
 <li>I helped found the &quot;Front-End Chapter&quot;, a cross US-UK team group dedicated to sharing knowledge and best practices in front-end development;</li>
 <li>I gave talks on Visual Regressions testing, TypeScript, Styled Components, and design patterns in React;</li>
 <li>I held a half-day introductory workshop on React and our internal UI Components library;</li>
-<li>I organised and participated in cross-company coding competitions on competitive game-playing AIs and image classification challenges;</li>
-<li>I ran a lunchtime &quot;Coding Club&quot; teaching front-end frameworks and TDD.</li>
+<li>I ran a lunchtime &quot;Coding Club&quot; teaching front-end frameworks and TDD;</li>
+<li>I organised and participated in internal coding competitions on competitive game-playing AIs and image classification with neural networks.</li>
 </ul>
 <h2 id="education">Education</h2>
 <h3 id="201115-queen-mary-university-of-london-london-uk"><strong>2011&ndash;15: Queen Mary University of London</strong>, London, UK</h3>
@@ -293,9 +311,9 @@ code {
 <h2 id="interests">Interests</h2>
 <h3 id="coding">Coding</h3>
 <ul>
-<li>Contributed to various open source JavaScript projects</li>
-<li>Attended conferences and meetups on TypeScript, React, and GraphQL</li>
-<li>Experimented in personal projects with Svelte, GraphQL, Apollo, NumPy, and TensorFlow</li>
+<li>I&#39;ve contributed to various open source JavaScript projects</li>
+<li>I&#39;ve attended conferences and meetups on TypeScript, React, and GraphQL</li>
+<li>I&#39;ve experimented in personal projects with Svelte, GraphQL, Apollo, NumPy, and TensorFlow</li>
 </ul>
 <h3 id="other">Other</h3>
 <p>Board games, heavy metal, folk, sci-fi, fantasy, festivals, travelling, running, craft beer</p>
