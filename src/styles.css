@@ -148,6 +148,7 @@ h2:after {
 h2:after {
   margin: 5px auto 10px;
 }
+
 hr {
   margin: 20px auto;
   width: 25%;
@@ -155,6 +156,7 @@ hr {
 
 ul {
   margin-bottom: 10px;
+  padding: 0 0 0 20px;
 }
 
 code {
@@ -190,10 +192,25 @@ code {
   margin-top: 0;
 }
 
+li {
+  margin: 5px 0;
+}
+
 @media print {
   main {
     margin-left: 25px;
     margin-right: 25px;
     max-width: 100%;
+  }
+
+  ul {
+    padding: 0 0 0 40px;
+  }
+}
+
+/* Desktop stuff */
+@media  (min-width: 680px) {
+  ul {
+    padding: 0 0 0 40px;
   }
 }

@@ -16,10 +16,10 @@ linkedin: http://linkedin.com/in/dprgarner
 
 - Front-end: **React, Redux, TypeScript, RxJS**, Sass, Styled Components, Webpack, Recent ECMAScript Features, Responsive Design, jQuery
 - Back-end: **Node.js, Python, Docker**, Express, Django, Solr, Elasticsearch
-- AWS: **CloudFormation, CloudWatch, Fargate**, Lambda, CloudFront, Fargate
+- AWS: **CloudFormation, CloudWatch, Fargate**, Lambda, CloudFront
 - Testing: **Mocha, Jest, Selenium, React Testing Library, TDD**, BDD, pytest
 - Source control and CI/CD: **Git**, Jenkins, TeamCity, Gitlab CI, Subversion
-- Command line tools: **Vim**, Bash, common CLI utilities (`sed`, `make`, `grep`, etc.)
+- Command line tools: **Vim**, Bash, common CLI utilities (`sed`, `grep`, `make`, etc.)
 - Process management: Scrum, Kanban, Jira, Trello
 
 ## Employment History
@@ -60,8 +60,8 @@ I gained a wide range of experience with legacy and new codebases primarily usin
 - I helped found the "Front-End Chapter", a cross US-UK team group dedicated to sharing knowledge and best practices in front-end development;
 - I gave talks on Visual Regressions testing, TypeScript, Styled Components, and design patterns in React;
 - I held a half-day introductory workshop on React and our internal UI Components library;
-- I organised and participated in cross-company coding competitions on competitive game-playing AIs and image classification challenges;
-- I ran a lunchtime "Coding Club" teaching front-end frameworks and TDD.
+- I ran a lunchtime "Coding Club" teaching front-end frameworks and TDD;
+- I organised and participated in internal coding competitions on competitive game-playing AIs and image classification with neural networks.
 
 ## Education
 
@@ -79,9 +79,9 @@ As a graduate student, I authored [multiple papers](https://inspirehep.net/liter
 
 ### Coding
 
-- Contributed to various open source JavaScript projects
-- Attended conferences and meetups on TypeScript, React, and GraphQL
-- Experimented in personal projects with Svelte, GraphQL, Apollo, NumPy, and TensorFlow
+- I've contributed to various open source JavaScript projects
+- I've attended conferences and meetups on TypeScript, React, and GraphQL
+- I've experimented in personal projects with Svelte, GraphQL, Apollo, NumPy, and TensorFlow
 
 ### Other
 
