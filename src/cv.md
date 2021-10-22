@@ -1,6 +1,6 @@
 ---
 name: David Garner
-title: Software Developer
+title: Technical Lead
 email: dprgarner@gmail.com
 soundbite: Software developer with a focus on front-end web development
 description: >
@@ -44,6 +44,7 @@ I took ownership of the JavaScript codebases within a home insurance platform.
 ### **2015–20: Software Developer**, then **Engineering Lead (2019-20)** at Mintel, London, UK
 
 I gained a wide range of experience with legacy and new codebases primarily using React, Redux, Django, Solr, and Elasticsearch. I worked on multiple projects, including:
+
 - Apps for aggregating and presenting direct marketing data and consumer survey data into tables, charts, and dashboards;
 - Apps for searching, reading, and generating presentations from long-form market research articles;
 - Internal tools for browser-based Selenium testing, visual regressions testing, and internal front-end libraries for implementing cross-company stylistic consistency.
