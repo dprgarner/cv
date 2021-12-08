@@ -4,7 +4,7 @@ title: Technical Lead
 email: dprgarner@gmail.com
 soundbite: Software developer with a focus on front-end web development
 description: >
-  I'm a full-stack web developer and technical team lead based in London. My primary focus is front-end development with React, but I also have considerable professional experience in back-end development with Node.js, Python, and Django. I place a strong emphasis on quality in all of my code, and consider unit testing and code review to be essential parts of the development process.
+  I'm a full-stack web developer and technical team lead based in London. My primary focus is front-end development with JavaScript and React, but I also have considerable professional experience in back-end development with Node.js, Python, and Django. I place a strong emphasis on quality in all of my code, and consider unit testing and code review to be essential parts of the development process.
 cv: http://dprgarner.github.io
 github: https://github.com/dprgarner
 linkedin: http://linkedin.com/in/dprgarner
@@ -24,7 +24,9 @@ linkedin: http://linkedin.com/in/dprgarner
 
 ## Employment History
 
-### **2020–present: Senior Front-end Lead**, then **Technical Front-end Lead** at QMetric, London, UK
+### April 2020 – October 2021: QMetric, London, UK
+
+#### **Senior Front-end Lead**, then **Technical Lead (from November 2020)**
 
 I took ownership of the JavaScript codebases within a home insurance platform.
 
@@ -37,11 +39,13 @@ I took ownership of the JavaScript codebases within a home insurance platform.
 - I initiated and assisted with multiple tech-debt initiatives, including the migration of the codebase away from RxJS, the Docker containerisation of the legacy services, and the introduction of browser-side error monitoring and reporting.
 - I designed, prototyped, and initiated the implementation of a Microfrontend architecture across our front-end codebase to support multiple teams developing the same application in parallel.
 
----
+<!-- ---
 
-<div class="break" />
+<div class="break" /> -->
 
-### **2015–20: Software Developer**, then **Engineering Lead (2019-20)** at Mintel, London, UK
+### **August 2015 – March 2020**: Mintel, London, UK
+
+#### **Software Developer**, then **Engineering Lead (from March 2019)**
 
 I gained a wide range of experience with legacy and new codebases primarily using React, Redux, Django, Solr, and Elasticsearch. I worked on multiple projects, including:
 
@@ -80,9 +84,7 @@ As a graduate student, I authored [multiple papers](https://inspirehep.net/liter
 
 ### Coding
 
-- I've contributed to various open source JavaScript projects
-- I've attended conferences and meetups on TypeScript, React, and GraphQL
-- I've experimented in personal projects with Svelte, GraphQL, Apollo, NumPy, and TensorFlow
+I've contributed to various open source JavaScript projects, attended conferences and meetups on TypeScript, React, and GraphQL, and experimented in personal projects with Svelte, GraphQL, Apollo, NumPy, and TensorFlow.
 
 ### Other
 
