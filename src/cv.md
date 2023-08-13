@@ -12,17 +12,43 @@ linkedin: http://linkedin.com/in/dprgarner
 
 # David Garner
 
-## Skills
+## Key Experience and Skills
 
-- Front-end: **React, Redux, TypeScript, RxJS**, Sass, Styled Components, Webpack, Recent ECMAScript Features, Responsive Design, jQuery
-- Back-end: **Node.js, Python, Docker**, Express, Django, Solr, Elasticsearch
-- AWS: **CloudFormation, CloudWatch, Fargate**, Lambda, CloudFront
-- Testing: **Mocha, Jest, Selenium, React Testing Library, TDD**, BDD, pytest
-- Source control and CI/CD: **Git**, Jenkins, TeamCity, Gitlab CI, Subversion
-- Command line tools: **Vim**, Bash, common CLI utilities (`sed`, `grep`, `make`, etc.)
+- Front-end tools & approaches: **React, TypeScript, React Native, Apollo Client, Modern ECMAScript, Responsive Design, Design Systems**, Accessibility, Styled Components, Webpack, Redux, RxJS, Sass, Microfrontends
+- Languages & Frameworks: **Node.js, Python**, Next.js, Apollo Server, Koa, Express, Django, Solr, Elasticsearch
+- Infrastructure & Cloud Computing: **Docker, AWS** (including Lambda, CloudFront, Fargate, CloudFormation, CloudWatch), GCP (including GKE, PubSub, BigQuery), Kubernetes, Terraform
+- Testing: **Jest, React Testing Library, Mocha, Selenium, TDD**, BDD, pytest
+- Source control and CI/CD: **Git**, CircleCI, Jenkins, TeamCity, Gitlab CI, Subversion
+- Command line tools: Vim, Bash scripting, common CLI utilities (`sed`, `grep`, `make`, etc.)
+- Monitoring: Sentry, Datadog, AWS CloudWatch
 - Process management: Scrum, Kanban, Jira, Trello
+- Other: GraphQL, PostgreSQL, REST, Consumer-driven contracts
 
 ## Employment History
+
+### January 2022 - Present: YLD, London, UK (Contract role)
+
+#### **Senior Software Engineer** at Zoa, Jan 2023 - Present
+
+I worked as a consultant from YLD for the energy tech start-up Zoa as they broke away from Bulb and formed an independent company to create white-label apps and tools for energy suppliers.
+
+- I worked with the "apps platform" team to build and maintain a monorepo containing our web apps, native apps, and backend-for-frontend services, and designed architectural and usage patterns for product developers creating features;
+- I built the core of the React and React Native features allowing an energy consumer to manage their electric vehicle charging schedules and view their household energy consumption;
+- I designed and implemented an approach for "universal" client-side navigation wrapping around web and native navigation libraries;
+- I helped create an internal design system, building components and designing their APIs, emphasising accessibility, universality between web and native, and ease-of-integration for developers;
+- I participated in technical design and modelling discussions on the energy supply domain and our platform architecture;
+
+<div class="break" />
+
+#### **Senior Software Engineer** at Bulb, Jan 2022 - Dec 2022
+
+I worked as a consultant from YLD for the energy supply company Bulb.
+
+- I maintained the legacy energy usage charts in the mobile app, fixing issues in the React Native front-end, the backend-for-frontend Apollo server, and the back-end TypeScript microservices;
+- I helped build a feature to allow users to see a breakdown of their household energy usage, with a data-ingestion pipeline using GCP PubSub and an integration to a third party providing the disaggregation model;
+- I assisted and trained my team in designing backwards-compatible GraphQL schemas, emphasising stability in previously-released versions of the mobile app;
+- I created a budget-setting feature to allow customers to track their energy usage, with mobile push notifications implemented in Firebase;
+- I joined technical design discussions with technical leads and engineers.
 
 ### April 2020 – October 2021: QMetric, London, UK
 
@@ -31,7 +57,7 @@ linkedin: http://linkedin.com/in/dprgarner
 I took ownership of the JavaScript codebases within a home insurance platform.
 
 - I maintained and extended a customer-facing app and a backoffice app for purchasing and modifying home insurance policies, with front-ends and backends-for-frontends implemented in React, Express, TypeScript, and RxJS.
-- I provided technical leadership, architecture design, and support on a wide range of parallel projects and initiatives, including the front-end rebuilds of the insurance risk form, the quote landing page, and the payments page, as well as the introduction of user-behaviour-tracking analytics and A/B testing.
+- I provided technical leadership, architecture design, and support on a wide range of parallel projects and initiatives, including the front-end rebuilds of the insurance risk form, the payments page, and the landing page, as well as the introduction of user-behaviour-tracking analytics and A/B testing.
 - I worked with business analysts and delivery managers to break down high-level business requirements into self-contained user stories for development.
 - I participated in large-scale architecture discussions with the other tech leads and tech principals to plan the evolution of our cloud-native, event-driven, microservice-architectured insurance platform, implemented primarily in Java with Domain Driven Design.
 - I conducted interviews for candidate front-end developers, as well as setting and marking take-home assessments.
@@ -40,8 +66,8 @@ I took ownership of the JavaScript codebases within a home insurance platform.
 - I designed, prototyped, and initiated the implementation of a Microfrontend architecture across our front-end codebase to support multiple teams developing the same application in parallel.
 
 <!-- ---
-
-<div class="break" /> -->
+<div class="break" />
+-->
 
 ### **August 2015 – March 2020**: Mintel, London, UK
 
@@ -51,13 +77,13 @@ I gained a wide range of experience with legacy and new codebases primarily usin
 
 - Apps for aggregating and presenting direct marketing data and consumer survey data into tables, charts, and dashboards;
 - Apps for searching, reading, and generating presentations from long-form market research articles;
-- Internal tools for browser-based Selenium testing, visual regressions testing, and internal front-end libraries for implementing cross-company stylistic consistency.
+- Internal tools for browser-based Selenium testing, visual regressions testing, and implementing a cross-company design system.
 
-#### As the Technical Lead for a search app:
+#### As the Technical Lead for a search app development team:
 
 - I held responsibility for technical direction, tech-debt prioritisation, and code quality standards;
-- I worked with Product Development and Project Leads to translate the business and technical requirements for new features into Jira issues for implementation by the developers in London, Chicago, and Shanghai;
-- I joined remote and in-person interview panels for potential interns, graduate developers, and senior front-end developers.
+- I worked with Product Development and Project Leads to translate the business and technical requirements for new features into Jira issues for implementation by developer teams in London, Chicago, and Shanghai;
+- I joined remote and in-person interview panels for hiring senior front-end developers, graduate developers, and interns.
 
 #### In addition to my main project work:
 
@@ -74,7 +100,7 @@ I gained a wide range of experience with legacy and new codebases primarily usin
 
 **Degree: Doctor of Philosophy (PhD)** in Theoretical Physics (String Theory)
 
-As a graduate student, I authored [multiple papers](https://inspirehep.net/literature?sort=mostrecent&size=25&page=1&q=a%20D.Garner.1) published in peer-reviewed academic journals, gave talks at multiple academic institutions, and taught Physics undergraduates.
+As a graduate student, I authored [multiple papers](https://arxiv.org/search/hep-th?searchtype=author&query=Garner%2C+D) published in peer-reviewed academic journals, gave talks at multiple academic institutions, and taught Physics undergraduates.
 
 ### **2007–11: University of Cambridge** (Christ’s College), Cambridge, UK
 
@@ -84,7 +110,7 @@ As a graduate student, I authored [multiple papers](https://inspirehep.net/liter
 
 ### Coding
 
-I've contributed to various open source JavaScript projects, attended conferences and meetups on TypeScript, React, and GraphQL, and experimented in personal projects with Svelte, GraphQL, Apollo, NumPy, and TensorFlow.
+I've contributed to various open source JavaScript projects, attended conferences and meetups on TypeScript, React, and GraphQL, and experimented in personal projects with Rust, Firebase, Svelte, NumPy, and TensorFlow.
 
 ### Other
 

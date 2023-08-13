@@ -1,7 +1,5 @@
 * {
   margin: 0;
-  font-family: 'Varela', sans-serif;
-  line-height: 1.4;
   color: #2b2b2b;
 }
 
@@ -30,7 +28,6 @@ main {
 header {
   margin: 0 auto;
   max-width: 640px;
-  font-family: 'Ubuntu', sans-serif;
 }
 
 .name {
@@ -85,6 +82,23 @@ header {
 }
 
 /* Typography */
+* {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+}
+
+code {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+header *,
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Varela', sans-serif;
+}
+
 h1,
 h2,
 h3,
@@ -106,8 +120,6 @@ h2,
 h3,
 h4 {
   color: #004466;
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: normal;
   position: relative;
 }
 
@@ -162,10 +174,6 @@ ul {
   padding: 0 0 0 20px;
 }
 
-code {
-  font-family: 'Courier New', Courier, monospace;
-}
-
 /* Alternative links */
 .alternative {
   margin: 0 auto;
@@ -196,7 +204,7 @@ code {
 }
 
 li {
-  margin: 5px 0;
+  margin: 6px 0;
 }
 
 @media print {
