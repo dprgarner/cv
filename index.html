@@ -2,12 +2,12 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Varela|Open+Sans|Ubuntu|Bebas+Neue&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Varela&display=swap" rel="stylesheet">
     <style type="text/css">
       * {
   margin: 0;
-  font-family: 'Varela', sans-serif;
-  line-height: 1.4;
   color: #2b2b2b;
 }
 
@@ -36,7 +36,6 @@ main {
 header {
   margin: 0 auto;
   max-width: 640px;
-  font-family: 'Ubuntu', sans-serif;
 }
 
 .name {
@@ -91,6 +90,23 @@ header {
 }
 
 /* Typography */
+* {
+  font-family: 'Open Sans', 'Segoe UI', Tahoma, sans-serif;
+  line-height: 1.5;
+}
+
+code {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+header *,
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Varela', sans-serif;
+}
+
 h1,
 h2,
 h3,
@@ -112,8 +128,6 @@ h2,
 h3,
 h4 {
   color: #004466;
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: normal;
   position: relative;
 }
 
@@ -168,8 +182,8 @@ ul {
   padding: 0 0 0 20px;
 }
 
-code {
-  font-family: 'Courier New', Courier, monospace;
+li {
+  margin: 6px 0;
 }
 
 /* Alternative links */
@@ -201,11 +215,11 @@ code {
   margin-top: 0;
 }
 
-li {
-  margin: 5px 0;
-}
-
 @media print {
+  * {
+    font-family: Tahoma, sans-serif;
+  }
+
   main {
     margin-left: 25px;
     margin-right: 25px;
@@ -252,28 +266,51 @@ li {
       -->
 
       <p>
-        I&#x27;m a full-stack web developer and technical team lead based in London. My primary focus is front-end development with JavaScript and React, but I also have considerable professional experience in back-end development with Node.js, Python, and Django. I place a strong emphasis on quality in all of my code, and consider unit testing and code review to be essential parts of the development process.
+        I&#x27;m a full-stack web developer and technical lead based in London. My primary focus is front-end development with JavaScript and React, but I also have considerable professional experience in back-end development with Node.js, Python, and Django. I place a strong emphasis on quality in all of my code, and consider unit testing and code review to be essential parts of the development process.
 
       </p>
 
       <h1 id="david-garner">David Garner</h1>
-<h2 id="skills">Skills</h2>
+<h2 id="key-experience-and-skills">Key Experience and Skills</h2>
 <ul>
-<li>Front-end: <strong>React, Redux, TypeScript, RxJS</strong>, Sass, Styled Components, Webpack, Recent ECMAScript Features, Responsive Design, jQuery</li>
-<li>Back-end: <strong>Node.js, Python, Docker</strong>, Express, Django, Solr, Elasticsearch</li>
-<li>AWS: <strong>CloudFormation, CloudWatch, Fargate</strong>, Lambda, CloudFront</li>
-<li>Testing: <strong>Mocha, Jest, Selenium, React Testing Library, TDD</strong>, BDD, pytest</li>
-<li>Source control and CI/CD: <strong>Git</strong>, Jenkins, TeamCity, Gitlab CI, Subversion</li>
-<li>Command line tools: <strong>Vim</strong>, Bash, common CLI utilities (<code>sed</code>, <code>grep</code>, <code>make</code>, etc.)</li>
+<li>Front-end tools &amp; approaches: <strong>React, TypeScript, React Native, Apollo Client, Modern ECMAScript, Responsive Design, Design Systems</strong>, Accessibility, Styled Components, Webpack, Redux, RxJS, Sass, Microfrontends</li>
+<li>Languages &amp; Frameworks: <strong>Node.js, Python</strong>, Next.js, Apollo Server, Koa, Express, Django, Solr, Elasticsearch</li>
+<li>Infrastructure &amp; Cloud Computing: <strong>Docker, AWS</strong> (including Lambda, CloudFront, Fargate, CloudFormation, CloudWatch), GCP (including GKE, PubSub, BigQuery), Kubernetes, Terraform</li>
+<li>Testing: <strong>Jest, React Testing Library, Mocha, Selenium, TDD</strong>, BDD, pytest</li>
+<li>Source control and CI/CD: <strong>Git</strong>, CircleCI, Jenkins, TeamCity, Gitlab CI, Subversion</li>
+<li>Command line tools: Vim, Bash scripting, common CLI utilities (<code>sed</code>, <code>grep</code>, <code>make</code>, etc.)</li>
+<li>Monitoring: Sentry, Datadog, AWS CloudWatch</li>
 <li>Process management: Scrum, Kanban, Jira, Trello</li>
+<li>Other: GraphQL, PostgreSQL, REST, Consumer-driven contracts</li>
 </ul>
 <h2 id="employment-history">Employment History</h2>
+<h3 id="january-2022---present-yld-london-uk-contract-role">January 2022 - Present: YLD, London, UK (Contract role)</h3>
+<h4 id="senior-software-engineer-at-zoa-jan-2023---present"><strong>Senior Software Engineer</strong> at Zoa, Jan 2023 - Present</h4>
+<p>I worked as a consultant from YLD for the energy tech start-up Zoa as they broke away from Bulb and formed an independent company to create white-label apps and tools for energy suppliers.</p>
+<ul>
+<li>I worked with the &quot;apps platform&quot; team to build and maintain a monorepo containing our web apps, native apps, and backend-for-frontend services, and designed architectural and usage patterns for developers creating product features;</li>
+<li>I built the core code of the React and React Native features allowing an energy consumer to manage their electric vehicle charging schedules and view their household energy consumption;</li>
+<li>I designed and implemented an approach for &quot;universal&quot; client-side navigation wrapping around web and native navigation libraries;</li>
+<li>I helped create an internal design system, building components and designing their APIs, with an emphasis on accessibility, universality between web and native, and ease-of-integration for developers;</li>
+<li>I participated in technical design and modelling discussions on the energy supply domain and our platform architecture;</li>
+</ul>
+<div class="break" />
+
+<h4 id="senior-software-engineer-at-bulb-jan-2022---dec-2022"><strong>Senior Software Engineer</strong> at Bulb, Jan 2022 - Dec 2022</h4>
+<p>I worked as a consultant from YLD for the energy supply company Bulb.</p>
+<ul>
+<li>I maintained the legacy energy usage charts in the mobile app, fixing issues in the React Native front-end, the backend-for-frontend Apollo server, and the back-end TypeScript microservices;</li>
+<li>I helped build a feature to allow users to see a breakdown of their household energy usage, with a data-ingestion pipeline using GCP PubSub and an integration to a third party providing the disaggregation model;</li>
+<li>I assisted and trained my team in designing backwards-compatible GraphQL schemas, emphasising stability in previously-released versions of the mobile app;</li>
+<li>I created a budget-setting feature to allow customers to track their energy usage, with mobile push notifications implemented in Firebase;</li>
+<li>I joined technical design discussions with technical leads and engineers.</li>
+</ul>
 <h3 id="april-2020--october-2021-qmetric-london-uk">April 2020 &ndash; October 2021: QMetric, London, UK</h3>
 <h4 id="senior-front-end-lead-then-technical-lead-from-november-2020"><strong>Senior Front-end Lead</strong>, then <strong>Technical Lead (from November 2020)</strong></h4>
 <p>I took ownership of the JavaScript codebases within a home insurance platform.</p>
 <ul>
 <li>I maintained and extended a customer-facing app and a backoffice app for purchasing and modifying home insurance policies, with front-ends and backends-for-frontends implemented in React, Express, TypeScript, and RxJS.</li>
-<li>I provided technical leadership, architecture design, and support on a wide range of parallel projects and initiatives, including the front-end rebuilds of the insurance risk form, the quote landing page, and the payments page, as well as the introduction of user-behaviour-tracking analytics and A/B testing.</li>
+<li>I provided technical leadership, architecture design, and support on a wide range of parallel projects and initiatives, including the front-end rebuilds of the insurance risk form, the payments page, and the landing page, as well as the introduction of user-behaviour-tracking analytics and A/B testing.</li>
 <li>I worked with business analysts and delivery managers to break down high-level business requirements into self-contained user stories for development.</li>
 <li>I participated in large-scale architecture discussions with the other tech leads and tech principals to plan the evolution of our cloud-native, event-driven, microservice-architectured insurance platform, implemented primarily in Java with Domain Driven Design.</li>
 <li>I conducted interviews for candidate front-end developers, as well as setting and marking take-home assessments.</li>
@@ -282,8 +319,8 @@ li {
 <li>I designed, prototyped, and initiated the implementation of a Microfrontend architecture across our front-end codebase to support multiple teams developing the same application in parallel.</li>
 </ul>
 <!-- ---
-
-<div class="break" /> -->
+<div class="break" />
+-->
 
 <h3 id="august-2015--march-2020-mintel-london-uk"><strong>August 2015 &ndash; March 2020</strong>: Mintel, London, UK</h3>
 <h4 id="software-developer-then-engineering-lead-from-march-2019"><strong>Software Developer</strong>, then <strong>Engineering Lead (from March 2019)</strong></h4>
@@ -291,13 +328,13 @@ li {
 <ul>
 <li>Apps for aggregating and presenting direct marketing data and consumer survey data into tables, charts, and dashboards;</li>
 <li>Apps for searching, reading, and generating presentations from long-form market research articles;</li>
-<li>Internal tools for browser-based Selenium testing, visual regressions testing, and internal front-end libraries for implementing cross-company stylistic consistency.</li>
+<li>Internal tools for browser-based Selenium testing, visual regressions testing, and implementing a cross-company design system.</li>
 </ul>
-<h4 id="as-the-technical-lead-for-a-search-app">As the Technical Lead for a search app:</h4>
+<h4 id="as-the-technical-lead-for-a-search-app-development-team">As the Technical Lead for a search app development team:</h4>
 <ul>
 <li>I held responsibility for technical direction, tech-debt prioritisation, and code quality standards;</li>
-<li>I worked with Product Development and Project Leads to translate the business and technical requirements for new features into Jira issues for implementation by the developers in London, Chicago, and Shanghai;</li>
-<li>I joined remote and in-person interview panels for potential interns, graduate developers, and senior front-end developers.</li>
+<li>I worked with Product Development and Project Leads to translate the business and technical requirements for new features into Jira issues for implementation by developer teams in London, Chicago, and Shanghai;</li>
+<li>I joined remote and in-person interview panels for hiring senior front-end developers, graduate developers, and interns.</li>
 </ul>
 <h4 id="in-addition-to-my-main-project-work">In addition to my main project work:</h4>
 <ul>
@@ -311,12 +348,12 @@ li {
 <h2 id="education">Education</h2>
 <h3 id="201115-queen-mary-university-of-london-london-uk"><strong>2011&ndash;15: Queen Mary University of London</strong>, London, UK</h3>
 <p><strong>Degree: Doctor of Philosophy (PhD)</strong> in Theoretical Physics (String Theory)</p>
-<p>As a graduate student, I authored <a href="https://inspirehep.net/literature?sort=mostrecent&amp;size=25&amp;page=1&amp;q=a%20D.Garner.1">multiple papers</a> published in peer-reviewed academic journals, gave talks at multiple academic institutions, and taught Physics undergraduates.</p>
+<p>As a graduate student, I authored <a href="https://arxiv.org/search/hep-th?searchtype=author&amp;query=Garner%2C+D">multiple papers</a> published in peer-reviewed academic journals, gave talks at multiple academic institutions, and taught Physics undergraduates.</p>
 <h3 id="200711-university-of-cambridge-christs-college-cambridge-uk"><strong>2007&ndash;11: University of Cambridge</strong> (Christ&rsquo;s College), Cambridge, UK</h3>
 <p><strong>Degree: BA with MMath, Mathematical Tripos</strong>, First Class/Honours Pass</p>
 <h2 id="interests">Interests</h2>
 <h3 id="coding">Coding</h3>
-<p>I&#39;ve contributed to various open source JavaScript projects, attended conferences and meetups on TypeScript, React, and GraphQL, and experimented in personal projects with Svelte, GraphQL, Apollo, NumPy, and TensorFlow.</p>
+<p>I&#39;ve contributed to various open source JavaScript projects, attended conferences and meetups on TypeScript, React, and GraphQL, and experimented in personal projects with Rust, Firebase, Svelte, NumPy, and TensorFlow.</p>
 <h3 id="other">Other</h3>
 <p>Board games, heavy metal, folk, sci-fi, fantasy, festivals, travelling, running, craft beer</p>
 
