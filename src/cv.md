@@ -4,7 +4,7 @@ title: Technical Lead
 email: dprgarner@gmail.com
 soundbite: Software developer with a focus on front-end web development
 description: >
-  I'm a full-stack web developer and technical team lead based in London. My primary focus is front-end development with JavaScript and React, but I also have considerable professional experience in back-end development with Node.js, Python, and Django. I place a strong emphasis on quality in all of my code, and consider unit testing and code review to be essential parts of the development process.
+  I'm a full-stack web developer and technical lead based in London. My primary focus is front-end development with JavaScript and React, but I also have considerable professional experience in back-end development with Node.js, Python, and Django. I place a strong emphasis on quality in all of my code, and consider unit testing and code review to be essential parts of the development process.
 cv: http://dprgarner.github.io
 github: https://github.com/dprgarner
 linkedin: http://linkedin.com/in/dprgarner
@@ -32,10 +32,10 @@ linkedin: http://linkedin.com/in/dprgarner
 
 I worked as a consultant from YLD for the energy tech start-up Zoa as they broke away from Bulb and formed an independent company to create white-label apps and tools for energy suppliers.
 
-- I worked with the "apps platform" team to build and maintain a monorepo containing our web apps, native apps, and backend-for-frontend services, and designed architectural and usage patterns for product developers creating features;
-- I built the core of the React and React Native features allowing an energy consumer to manage their electric vehicle charging schedules and view their household energy consumption;
+- I worked with the "apps platform" team to build and maintain a monorepo containing our web apps, native apps, and backend-for-frontend services, and designed architectural and usage patterns for developers creating product features;
+- I built the core code of the React and React Native features allowing an energy consumer to manage their electric vehicle charging schedules and view their household energy consumption;
 - I designed and implemented an approach for "universal" client-side navigation wrapping around web and native navigation libraries;
-- I helped create an internal design system, building components and designing their APIs, emphasising accessibility, universality between web and native, and ease-of-integration for developers;
+- I helped create an internal design system, building components and designing their APIs, with an emphasis on accessibility, universality between web and native, and ease-of-integration for developers;
 - I participated in technical design and modelling discussions on the energy supply domain and our platform architecture;
 
 <div class="break" />
