@@ -14,7 +14,7 @@ linkedin: http://linkedin.com/in/dprgarner
 
 ## Key Experience and Skills
 
-- Front-end tools & approaches: **React, TypeScript, React Native, Apollo Client, Modern ECMAScript, Responsive Design, Design Systems**, Accessibility, Styled Components, Webpack, Redux, RxJS, Sass, Microfrontends
+- Front-end tools & approaches: **React, TypeScript, React Native, Apollo Client, Modern ECMAScript, Responsive Design, Design Systems**, Expo, Accessibility, Styled Components, Webpack, Redux, RxJS, Sass, Microfrontends
 - Languages & Frameworks: **Node.js, Python**, Next.js, Apollo Server, Koa, Express, Django, Solr, Elasticsearch
 - Infrastructure & Cloud Computing: **Docker, AWS** (including Lambda, CloudFront, Fargate, CloudFormation, CloudWatch), GCP (including GKE, PubSub, BigQuery), Kubernetes, Terraform
 - Testing: **Jest, React Testing Library, Mocha, Selenium, TDD**, BDD, pytest
