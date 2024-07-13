@@ -4,7 +4,7 @@ title: Technical Lead
 email: dprgarner@gmail.com
 soundbite: Software developer with a focus on front-end web development
 description: >
-  I'm a full-stack web developer and technical lead based in London. My primary focus is front-end development with JavaScript and React, but I also have considerable professional experience in back-end development with Node.js, Python, and Django. I place a strong emphasis on quality in all of my code, and consider unit testing and code review to be essential parts of the development process.
+  I'm a full-stack web developer and technical lead based in London. My primary focus is front-end development with TypeScript and React, but I also have considerable professional experience in back-end development with Node.js, Python, and Django. I place a strong emphasis on quality in all of my code, and consider code review and automated testing to be essential parts of the development process.
 cv: http://dprgarner.github.io
 github: https://github.com/dprgarner
 linkedin: http://linkedin.com/in/dprgarner
@@ -14,33 +14,42 @@ linkedin: http://linkedin.com/in/dprgarner
 
 ## Key Experience and Skills
 
-- Front-end tools & approaches: **React, TypeScript, React Native, Apollo Client, Modern ECMAScript, Responsive Design, Design Systems**, Expo, Accessibility, Styled Components, Webpack, Redux, RxJS, Sass, Microfrontends
-- Languages & Frameworks: **Node.js, Python**, Next.js, Apollo Server, Koa, Express, Django, Solr, Elasticsearch
-- Infrastructure & Cloud Computing: **Docker, AWS** (including Lambda, CloudFront, Fargate, CloudFormation, CloudWatch), GCP (including GKE, PubSub, BigQuery), Kubernetes, Terraform
+- Front-end tools & approaches: **React, TypeScript, React Native, Modern ECMAScript, Responsive Design, Design Systems**, Mapbox, Expo, Accessibility, Styled Components, Webpack, Microfrontends
+- Languages & Frameworks: **Node.js, Python**, Next.js, Koa, Express, Django
+- Infrastructure & Cloud Computing: **Docker, AWS** (including Lambda, CloudFront, Fargate, CloudFormation, CloudWatch, SAM), GCP (including GKE, PubSub, BigQuery), Kubernetes, Terraform
 - Testing: **Jest, React Testing Library, Mocha, Selenium, TDD**, BDD, pytest
-- Source control and CI/CD: **Git**, CircleCI, Jenkins, TeamCity, Gitlab CI, Subversion
-- Command line tools: Vim, Bash scripting, common CLI utilities (`sed`, `grep`, `make`, etc.)
+- Source control and CI/CD: **Git**, CircleCI, Jenkins, TeamCity, Gitlab CI
+- Command line tools: Vim, Bash scripting, common Unix CLI utilities (`sed`, `grep`, `make`, etc.)
 - Monitoring: Sentry, Datadog, AWS CloudWatch
 - Process management: Scrum, Kanban, Jira, Trello
-- Other: GraphQL, PostgreSQL, REST, Consumer-driven contracts
+- Other: PostgreSQL, GIS, GraphQL, REST, Consumer-driven contracts
 
 ## Employment History
 
-### January 2022 - Present: YLD, London, UK (Contract role)
+### January 2022 - June 2024: YLD, London, UK (Contract role)
 
-#### **Senior Software Engineer** at Zoa, Jan 2023 - Present
+#### Camion, January 2024 - June 2024
+
+I worked as a consultant from YLD for Camion, an energy tech start-up which determines the potential value of installing electric vehicle chargers at different locations.
+
+- I created Camion's flagship product from scratch with a team of two other developers: an interactive web app allowing landlords and charge point operators to identify the costs and profitability of building charge points at arbitrary locations. The app consisted of an interactive map of the UK which presented in-depth analysis at individual points and calculated estimates across larger areas, and tools for allowing app users to manage and customise their portfolios of potential sites and export the analysis into CSV and PDF formats.
+- As consultants for YLD contracted by Camion, we introduced Agile processes including daily stand-ups, retrospectives, a Kanban board, roadmaps, and breaking work up into tickets in refinements.
+- As the first software developers working with the company, we made all the decisions on the tech stack, including React and Next.js for the app, Mapbox for the interactive map in the UI, PostgreSQL with PostGIS for the database, Vercel for CI/CD, and AWS for the database hosting, cloud functions, and user-management via Cognito.
+- Within a small, fast-moving team where priorities changed quickly, we delivered the initial app from scratch to production within three months, and successfully completed an extra mileston of user-requested addition features before the end of the contract.
+
+#### Zoa, January 2023 - December 2024
 
 I worked as a consultant from YLD for the energy tech start-up Zoa as they broke away from Bulb and formed an independent company to create white-label apps and tools for energy suppliers.
 
 - I worked with the "apps platform" team to build and maintain a monorepo containing our web apps, native apps, and backend-for-frontend services, and designed architectural and usage patterns for developers creating product features;
-- I built the core code of the React and React Native features allowing an energy consumer to manage their electric vehicle charging schedules and view their household energy consumption;
+- I built the core code of the React and React Native features which would allow an energy consumer to manage their electric vehicle charging schedules and view their household energy consumption;
 - I designed and implemented an approach for "universal" client-side navigation wrapping around web and native navigation libraries;
 - I helped create an internal design system, building components and designing their APIs, with an emphasis on accessibility, universality between web and native, and ease-of-integration for developers;
 - I participated in technical design and modelling discussions on the energy supply domain and our platform architecture;
 
-<div class="break" />
+<!-- <div class="break" /> -->
 
-#### **Senior Software Engineer** at Bulb, Jan 2022 - Dec 2022
+#### Bulb, January 2022 - December 2022
 
 I worked as a consultant from YLD for the energy supply company Bulb.
 
