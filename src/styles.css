@@ -149,7 +149,7 @@ h3 {
 
 h4,
 h5,
-h6  {
+h6 {
   margin: 5px 0;
 }
 
@@ -178,6 +178,10 @@ li {
   margin: 6px 0;
 }
 
+p + p {
+  margin: 8px 0;
+}
+
 /* Alternative links */
 .alternative {
   margin: 0 auto;
@@ -200,7 +204,6 @@ li {
 
 @page {
   margin: 25px 0;
-
 }
 
 @page :first {
@@ -221,10 +224,15 @@ li {
   ul {
     padding: 0 0 0 40px;
   }
+
+  .alternative {
+    /* HACK */
+    margin-top: -5px;
+  }
 }
 
 /* Desktop stuff */
-@media  (min-width: 680px) {
+@media (min-width: 680px) {
   ul {
     padding: 0 0 0 40px;
   }
