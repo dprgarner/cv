@@ -30,12 +30,8 @@
     </ul>
 
     <main>
-      <!--
-      <div class="soundbite">{{soundbite}}</div>
-      -->
-
       <p>
-        {{description}}
+        {{{description}}}
       </p>
 
       {{{markdown}}}

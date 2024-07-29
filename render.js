@@ -13,11 +13,8 @@ const ROOT = 'https://dprgarner.github.io/cv';
 async function renderHtml({ livereloadPort = null, isPdf = false } = {}) {
   const { attributes, body } = fm(await fs.readFile(CV_SOURCE, 'utf8'));
   const markdown = marked(body);
-  const context = { ...attributes, markdown };
-  context.addressCommas = (context.address || '')
-    .trim()
-    .split('\n')
-    .join(', ');
+  const description = marked(attributes.description);
+  const context = { ...attributes, markdown, description };
 
   if (livereloadPort) {
     const livereloadHost = 'localhost';

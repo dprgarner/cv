@@ -74,13 +74,6 @@ header {
   content: ' · ';
 }
 
-.soundbite {
-  font-style: italic;
-  font-size: 14px;
-  text-align: center;
-  margin: 0;
-}
-
 /* Typography */
 * {
   font-family: 'Open Sans', 'Segoe UI', Tahoma, sans-serif;
