@@ -15,14 +15,14 @@ linkedin: http://linkedin.com/in/dprgarner
 
 ### January 2024 - June 2024: Camion, London, UK (Contract role with YLD)
 
-As part of the initial tech team of contractors on a completely greenfield project, I delivered Camion's flagship product from concept to production within three months, in which our small fast-moving team made all the core architectural and technical decisions while also introducing Agile processes such as stand-ups, Kanban boards, and roadmaps.
+As part of the initial tech team of contractors on a completely greenfield project, I delivered Camion's flagship product from concept to production within three months, in which our small fast-moving team made all the foundational architectural and technical decisions while also introducing Agile processes such as stand-ups, Kanban boards, and roadmaps.
 
-We delivered a web app which allowed customers to determine the potential value of installing electric vehicle chargers at different locations via an interactive map of the UK, presenting in-depth analysis at individual points and across larger areas, with tools to allow customising their portfolios of potential sites and exporting the analysis into CSV and PDF formats.
+We delivered a web app which allowed customers to determine the potential value of installing electric vehicle chargers at different locations via an interactive map of the UK, presenting in-depth analysis at individual points and across larger areas, with tools to customise their portfolios of potential sites and to export the analysis into CSV and PDF formats.
 
 - **Key Technologies:** TypeScript, React, Next.js, AWS (Cognito, Lambda, SAM, S3), Vercel, PostgreSQL with PostGIS, Mapbox, deck.gl, Google Maps, Tailwind;
-- **Key Skills:** GIS technologies, authentication, code review, estimation and planning, client-consultancy communication, working to short deadlines.
+- **Key Skills:** GIS technologies, authentication, code review, estimation and planning.
 
-### January 2023 - December 2024: Zoa, London, UK (Contract role with YLD)
+### January 2023 - December 2023: Zoa, London, UK (Contract role with YLD)
 
 I worked with the energy tech start-up Zoa as it broke away from Bulb and formed an independent company which creates white-label apps and tools for energy suppliers.
 As the company was building their platform from scratch, I participated in several key architectural design discussions and decisions, primarily relating to their monorepo for creating web apps, native apps, and backend-for-frontend services.
@@ -36,26 +36,24 @@ I implemented the core code of an EV-charging web and native app, designed a pla
 
 I joined a green consumer energy supplier as a contractor while they were in special administration, maintaining the existing smart meter integrations and React Native mobile app for its 1.6 million customers, while also implementing new features to attract potential buyers for the company.
 
-I helped create mobile app features to let customers see estimates of the breakdown by category of their household energy usage and their spending in relation to similar homes, and to allow them to set monthly budget targets. I played a key role in the architecture design of these new features, and introduced strategies to the team to avoid disruption during their incremental roll-out.
+I helped create mobile app features to let customers see estimates of the breakdown by category of their household energy usage and their spending in relation to similar homes, and to allow them to set monthly budget targets. I played a key role in the architecture design of these new features, and introduced technical strategies for their seamless incremental roll-out.
 
 - **Key Technologies:** TypeScript, React Native, GraphQL, Apollo Client, Apollo Server, GCP (including BigQuery, GKE, PubSub, IAM), Kubernetes, Terraform;
 - **Key Skills:** Mobile app release, Firebase push notifications, working with dates and times, code review, unit testing.
 
 ### April 2020 – October 2021: Policy Expert, London, UK
 
-I joined the JavaScript team of a home insurance company as a **senior front-end lead**, and later took ownership of these codebases as the **technical lead** from November 2020. During a turbulent time for the company, I developed features and provided technical leadership on a wide range of parallel projects, including front-end rebuilds of multiple pages within the customer-facing and back-office apps, and the introduction of user-behaviour-tracking analytics and A/B testing.
+I joined the JavaScript team of a home insurance company as a **senior front-end lead**, and later took ownership of these codebases as the **technical lead** from November 2020. During a turbulent time for the company, I developed features and provided technical leadership on a wide range of parallel projects, including front-end rebuilds of multiple pages within the customer-facing and backoffice apps, and the introduction of user-behaviour-tracking analytics and A/B testing.
 
-I also spearheaded many technical initiatives, including the migration of the codebase away from RxJS, the Docker containerisation of the legacy services, the introduction of browser-side error monitoring and reporting, and the implementation of a micro-frontend architecture.
+I also spearheaded many technical initiatives, including the migration of the codebase away from RxJS, the Docker containerisation of the legacy services, the introduction of browser-side error monitoring and reporting, and the implementation of a microfrontend architecture.
 
 - **Key Technologies:** TypeScript, Node, React, Express, Docker, AWS (including CloudFormation, CloudFront, Fargate, Lambda), RxJS, Module Federation (Webpack), TeamCity;
 - **Leadership skills:** Interviewing, setting take-home assessments, onboarding, gathering business requirements, prioritising tech-debt, team training;
-- **Development skills:** Domain-driven design, event-driven architecture, microservice architecture, code review, agile processes, unit testing.
+- **Development skills:** Domain-driven design, event-driven architecture, microservices architecture, code review, agile processes, unit testing.
 
 ### **August 2015 – March 2020:** Mintel, London, UK
 
-Mintel is a multinational market research agency offering many products for delivering its data and analysis on consumer spending habits to businesses. Its technical stack was large and complex due to the wide variety of different products developed, acquired, and maintained in many different countries over its fifty-year history.
-
-I started my career as a software developer at Mintel, progressing to a **technical lead** by March 2019. During my time there, I gained a wide range of experience working with multiple new and in-production codebases, including web apps for aggregating and presenting direct marketing data and consumer survey data into tables, charts, and dashboards, and web apps for searching, reading, and exporting long-form market research articles.
+I started my career as a software developer at the market research agency Mintel, progressing to a **technical lead** by March 2019. During my time there, I gained a wide range of experience working with multiple new and in-production codebases, including web apps for aggregating and presenting direct marketing data and consumer survey data into tables, charts, and dashboards, and web apps for searching, reading, and exporting long-form articles.
 
 As a technical lead, I successfully orchestrated a major project combining two of Mintel's existing core products, gathering requirements from the product development and design teams, and coordinating the development work with 17 developers based in London, Chicago, and Shanghai.
 
