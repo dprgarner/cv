@@ -13,6 +13,15 @@ linkedin: http://linkedin.com/in/dprgarner
 
 ## Employment History
 
+### September 2024 - April 2025: Eurostar, London, UK (Contract role)
+
+I worked with several teams of experienced contractors at the multinational company Eurostar, across a large primarily-TypeScript codebase consisting of new and legacy apps and microservices, creating new features and addressing production bugs on their platforms for customers and station staff.
+
+I implemented the consistent passenger-specific messaging for the EU's upcoming Entry/Exit System across multiple platforms, including web and mobile apps, Google Wallet, Apple Wallet, and PDF printed tickets. I also made technical and customer-facing improvements to the web app seating maps for Eurostar trains.
+
+- **Key Technologies:** TypeScript, React, GraphQL, Apollo (client, server, federated schemas), Next.js, AWS (Codedeploy, Lambda, SQS), CircleCI, Google/Apple wallet, React Native, Grafana;
+- **Key Skills:** UI design systems, code review, CI/CD, microservices, monorepos, bug triage and monitoring, automated testing (including unit, integration, and in-browser).
+
 ### January 2024 - June 2024: Camion, London, UK (Contract role with YLD)
 
 As part of the initial tech team of contractors on a completely greenfield project, I delivered Camion's flagship product from concept to production within three months, in which our small fast-moving team made all the foundational architectural and technical decisions while also introducing Agile processes such as stand-ups, Kanban boards, and roadmaps.
@@ -24,7 +33,7 @@ We delivered a web app which allowed customers to determine the potential value 
 
 ### January 2023 - December 2023: Zoa, London, UK (Contract role with YLD)
 
-I worked with the energy tech start-up Zoa as it broke away from Bulb and formed an independent company which creates white-label apps and tools for energy suppliers.
+I worked with the energy tech start-up Zoa as it broke away from Bulb to form an independent company creating white-label apps and tools for energy suppliers.
 As the company was building their platform from scratch, I participated in several key architectural design discussions and decisions, primarily relating to their monorepo for creating web apps, native apps, and backend-for-frontend services.
 
 I implemented the core code of an EV-charging web and native app, designed a platform-agnostic approach for client-side navigation, and helped create an internal design system with an emphasis on accessibility, universality between web and native, and ease-of-integration for developers.
@@ -34,12 +43,12 @@ I implemented the core code of an EV-charging web and native app, designed a pla
 
 ### January 2022 - December 2022: Bulb, London, UK (Contract role with YLD)
 
-I joined a green consumer energy supplier as a contractor while they were in special administration, maintaining the existing smart meter integrations and React Native mobile app for its 1.6 million customers, while also implementing new features to attract potential buyers for the company.
+I joined the green energy supplier Bulb as a contractor while they were in special administration, maintaining the existing smart meter integrations and React Native mobile app for its 1.6 million customers, while also implementing new features to attract potential buyers for the company.
 
-I helped create mobile app features to let customers see estimates of the breakdown by category of their household energy usage and their spending in relation to similar homes, and to allow them to set monthly budget targets. I played a key role in the architecture design of these new features, and introduced technical strategies for their seamless incremental roll-out.
+I helped create mobile app features to allow customers to view estimates of the breakdown by category of their household energy usage and their spending in relation to similar homes, and to allow them to set monthly budget targets. I played a key role in the architecture design of these new features, and introduced technical strategies for their seamless incremental roll-out.
 
 - **Key Technologies:** TypeScript, React Native, GraphQL, Apollo Client, Apollo Server, GCP (including BigQuery, GKE, PubSub, IAM), Kubernetes, Terraform;
-- **Key Skills:** Mobile app release, Firebase push notifications, working with dates and times, code review, unit testing.
+- **Key Skills:** Mobile app release, Firebase push notifications, working with dates and times, code review, unit testing, triage.
 
 ### April 2020 – October 2021: Policy Expert, London, UK
 
@@ -61,7 +70,7 @@ As a technical lead, I successfully orchestrated a major project combining two o
 - **Leadership skills:** Requirements gathering, tech-debt prioritisation, interviewing candidates, presenting talks and workshops;
 - **Development skills:** Agile processes, automated testing (unit, integration, browser, visual regression), pair programming, code review, UI design systems.
 
-<div class="break" />
+<!-- <div class="break" /> -->
 
 ## Education
 
@@ -69,7 +78,7 @@ As a technical lead, I successfully orchestrated a major project combining two o
 
 **Degree: Doctor of Philosophy (PhD)** in Theoretical Physics (String Theory)
 
-As a graduate student, I authored [multiple papers](https://arxiv.org/search/hep-th?searchtype=author&query=Garner%2C+D) published in peer-reviewed academic journals, gave talks at multiple academic institutions, and taught Physics undergraduates.
+As a graduate student, I authored [multiple papers](https://arxiv.org/search/hep-th?searchtype=author&query=Garner%2C+D) published in peer-reviewed academic journals, gave talks at multiple academic institutions, and taught Physics undergraduate classes.
 
 ### **2007–11: University of Cambridge** (Christ’s College), Cambridge, UK
 
@@ -83,4 +92,4 @@ I've contributed to various open source JavaScript projects, attended conference
 
 ### Other
 
-Board games, heavy metal, folk, sci-fi, fantasy, festivals, travelling, running, craft beer...
+Board games, heavy metal, violin, folk, sci-fi, fantasy, festivals, travelling, running, craft beer...
