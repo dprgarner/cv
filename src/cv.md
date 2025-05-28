@@ -88,7 +88,7 @@ As a graduate student, I authored [multiple papers](https://arxiv.org/search/hep
 
 ### Coding
 
-I've contributed to various open source projects, attended conferences and meetups on TypeScript, React, and GraphQL, and experimented in personal projects with Rust, Firebase, Svelte, Flutter, NumPy, and TensorFlow.
+I've contributed to various open source projects, attended conferences and meetups on TypeScript, React, and GraphQL, and experimented in personal projects with Rust, Firebase, Svelte, Flutter, TensorFlow, and LLMs.
 
 ### Other
 
