@@ -3,7 +3,7 @@ name: David Garner
 title: Technical Lead
 email: dprgarner@gmail.com
 description: >
-  I'm a full-stack web developer and technical lead based in London. My primary focus is front-end development with **TypeScript** and **React**, but I also have considerable professional experience in back-end development with **Node.js, Python, and Django**. I place a strong emphasis on quality in all of my code, and consider code review and automated testing to be essential parts of the development process.
+  I'm a full-stack web developer and technical lead based in London. My primary focus is front-end development with **TypeScript** and **React**, but I also have considerable professional experience in back-end development with **Node.js and Python**. I place a strong emphasis on quality in all of my code, and consider code review and automated testing to be essential parts of the development process.
 cv: http://dprgarner.github.io
 github: https://github.com/dprgarner
 linkedin: http://linkedin.com/in/dprgarner
@@ -12,6 +12,14 @@ linkedin: http://linkedin.com/in/dprgarner
 # David Garner
 
 ## Employment History
+
+### **June 2025 - Present:** Natcap, London, UK (Contract role)
+
+I worked with a small development team at the nature-intelligence company Natcap. Working on the company's enterprise-grade security project, I migrated the company's customer platform from a home-made identity provider onto the Auth0 platform, and created a role-based access control framework for their platform.
+
+- **Key Technologies:** Python, Auth0, OAuth 2.0, AWS, Kubernetes, Terraform, PostgreSQL, GraphQL, Apollo (client & server), TypeScript, SQLAlchemy, FastAPI, Pydantic;
+
+- **Key Skills:** Role-based access control, writing documentation, code review, unit testing.
 
 ### **September 2024 - April 2025:** Eurostar, London, UK (Contract role)
 
@@ -70,7 +78,7 @@ After being promoted to a **technical lead** in March 2019, I successfully orche
 - **Leadership skills:** Requirements gathering, tech-debt prioritisation, interviewing candidates, presenting talks and workshops;
 - **Development skills:** Agile processes, automated testing (unit, integration, browser, visual regression), pair programming, code review, UI design systems.
 
-<div class="break" />
+<!-- <div class="break" /> -->
 
 ## Education
 
