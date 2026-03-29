@@ -15,7 +15,7 @@
     "serve": "http-server dist"
   },
   "devDependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "front-matter": "^3.0.2",
     "gh-pages": "^2.1.1",
     "handlebars": "^4.7.7",
