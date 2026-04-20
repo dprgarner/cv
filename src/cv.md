@@ -19,7 +19,7 @@ I worked with a small development team at the nature-intelligence company Natcap
 
 In addition to the security project, I made major improvements to the developer process by rearchitecting the CI workflows and introducing browser-run visual regression tests.
 
-- **Key Technologies:** Python, Auth0, OAuth 2.0, AWS (including EKS and Cloudwatch), Kubernetes, Terraform, PostgreSQL, GraphQL, Apollo (client & server), TypeScript, SQLAlchemy, FastAPI, Playwright, GitHub Actions;
+- **Key Technologies:** Python, Auth0, OAuth 2.0, AWS (including EKS and Cloudwatch), Kubernetes, Helm, Terraform, PostgreSQL, GraphQL, Apollo (client & server), TypeScript, SQLAlchemy, FastAPI, Playwright, GitHub Actions;
 
 - **Key Skills:** Role-based access control, writing documentation, code review, automated testing (unit, browser, visual regression).
 
@@ -97,7 +97,7 @@ As a graduate student, I authored [multiple papers](https://arxiv.org/search/hep
 
 ### Coding
 
-I've contributed to various open source projects, attended conferences and meetups on TypeScript, React, and GraphQL, and experimented in personal projects with Rust, Firebase, Svelte, Flutter, TensorFlow, and LLMs.
+I've contributed to various open source projects, attended conferences and meetups on TypeScript, React, and GraphQL, and experimented in personal projects with Rust, Firebase, Serverless, Svelte, Flutter, TensorFlow, and LLMs.
 
 ### Other
 
