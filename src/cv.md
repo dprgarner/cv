@@ -13,15 +13,17 @@ linkedin: http://linkedin.com/in/dprgarner
 
 ## Employment History
 
-### **June 2025 - Present:** Natcap, London, UK (Contract role)
+### **June 2025 - April 2026:** Natcap (Contract role - London, UK)
 
-I worked with a small development team at the nature-intelligence company Natcap. Working on the company's enterprise-grade security project, I migrated the company's customer platform from a home-made identity provider onto the Auth0 platform, and created a role-based access control framework for their platform.
+I worked with a small development team at the nature-intelligence company Natcap. Working on the company's enterprise-grade security project, I migrated the company's customer platform from a home-made identity provider onto the Auth0 platform, and designed and implemented a role-based access control framework for their platform.
 
-- **Key Technologies:** Python, Auth0, OAuth 2.0, AWS, Kubernetes, Terraform, PostgreSQL, GraphQL, Apollo (client & server), TypeScript, SQLAlchemy, FastAPI, Pydantic;
+In addition to the security project, I made major improvements to the developer process by rearchitecting the CI workflows and introducing browser-run visual regression tests.
 
-- **Key Skills:** Role-based access control, writing documentation, code review, unit testing.
+- **Key Technologies:** Python, Auth0, OAuth 2.0, AWS (including EKS and Cloudwatch), Kubernetes, Terraform, PostgreSQL, GraphQL, Apollo (client & server), TypeScript, SQLAlchemy, FastAPI, Playwright, GitHub Actions;
 
-### **September 2024 - April 2025:** Eurostar, London, UK (Contract role)
+- **Key Skills:** Role-based access control, writing documentation, code review, automated testing (unit, browser, visual regression).
+
+### **September 2024 - April 2025:** Eurostar (Contract role - London, UK)
 
 I worked with several teams of experienced contractors at the multinational company Eurostar, across a large primarily-TypeScript codebase consisting of new and legacy apps and microservices, creating new features and addressing production bugs on their platforms for train customers and station staff.
 
@@ -30,7 +32,7 @@ I implemented the passenger-specific messaging for the EU's upcoming Entry/Exit 
 - **Key Technologies:** TypeScript, React, Node.js, GraphQL, Apollo (client, server, federated schemas), Next.js, AWS (Codedeploy, Lambda, SQS), CircleCI, Google/Apple wallet, React Native, Grafana, Terraform;
 - **Key Skills:** UI design systems, code review, CI/CD, microservices, monorepos, bug triage and monitoring, automated testing (including unit, integration, and in-browser).
 
-### **January 2024 - June 2024:** Camion, London, UK (Contract role with YLD)
+### **January 2024 - June 2024:** Camion (Contract role with YLD - London, UK)
 
 As part of the initial tech team of contractors on a completely greenfield project, I delivered Camion's flagship product from concept to production within three months, in which our small fast-moving team made all the foundational architectural and technical decisions while also introducing Agile processes such as stand-ups, Kanban boards, and roadmaps.
 
@@ -39,56 +41,55 @@ We delivered a web app which allowed customers to determine the potential value 
 - **Key Technologies:** TypeScript, React, Node.js, Next.js, AWS (Cognito, Lambda, SAM, S3), Vercel, PostgreSQL with PostGIS, Mapbox, deck.gl, Google Maps, Tailwind;
 - **Key Skills:** GIS technologies, authentication, code review, estimation and planning.
 
-### **January 2023 - December 2023:** Zoa, London, UK (Contract role with YLD)
+### **January 2023 - December 2023:** Zoa (Contract role with YLD - London, UK)
 
-I worked with the energy tech start-up Zoa as it broke away from Bulb to form an independent company creating white-label apps and tools for energy suppliers.
-As the company was building their platform from scratch, I participated in several key architectural design discussions and decisions, primarily relating to their monorepo for creating web apps, native apps, and backend-for-frontend services.
+I worked with the energy tech start-up Zoa as it broke away from Bulb to form an independent company creating white-label apps and tools for energy suppliers. I participated in several key architectural design discussions and decisions for this greenfield codebase, particularly with their monorepo for web apps, native apps, and backend-for-frontend services.
 
 I implemented the core code of an EV-charging web and native app, designed a platform-agnostic approach for client-side navigation, and helped create an internal design system with an emphasis on accessibility, universality between web and native, and ease-of-integration for developers.
 
 - **Key Technologies:** TypeScript, React Native, Node.js, Expo, Next.js, CircleCI, Bitrise;
 - **Key Skills:** Universal JavaScript (client & server, web & mobile), UI design systems, accessibility, monorepos, code review.
 
-### **January 2022 - December 2022:** Bulb, London, UK (Contract role with YLD)
+### **January 2022 - December 2022:** Bulb (Contract role with YLD - London, UK)
 
-I joined the green energy supplier Bulb as a contractor while they were in special administration, maintaining the existing smart meter integrations and React Native mobile app for its 1.6 million customers, while also implementing new features to attract potential buyers for the company.
+I maintained the existing smart meter integrations for Bulb's 1.6 million customers, while also implementing new features in the React Native mobile app and its backing microservices.
 
-I helped create mobile app features to allow customers to view estimates of the breakdown by category of their household energy usage and their spending in relation to similar homes, and to allow them to set monthly budget targets. I played a key role in the architecture design of these new features, and introduced technical strategies for their seamless incremental roll-out.
+Within a small team I created features to allow customers to view estimates of the breakdown by category of their household energy usage and their spending in relation to similar homes. I played a key role in the technical and architectural designs of these new features, and strategies for their seamless incremental roll-out within an A/B test.
 
 - **Key Technologies:** TypeScript, React Native, Node.js, GraphQL, Apollo Client, Apollo Server, GCP (including BigQuery, GKE, PubSub, IAM), Kubernetes, Terraform;
 - **Key Skills:** Mobile app release, Firebase push notifications, working with dates and times, code review, unit testing, bug triage.
 
-### **April 2020 – October 2021:** Policy Expert, London, UK
+### **April 2020 – October 2021:** Policy Expert (London, UK)
 
 I joined the JavaScript team of a home insurance company as a **senior front-end lead**, taking ownership of these codebases as the **technical lead** from November 2020.
 
-I developed features and provided technical leadership on a range of projects including front-end rebuilds of multiple pages within the customer-facing and backoffice apps, spearheading technical initiatives including the modernisation of our service infrastructure into containers and our front-end framework usage.
+I led front-end rebuild projects of major sections of our customer-facing and back-office apps, and assisted with technical initiatives on the containerisation of our services and modernisation of our front-end frameworks.
 
 - **Key Technologies:** TypeScript, Node.js, React, Express, Docker, AWS (including CloudFormation, CloudFront, Fargate, Lambda), RxJS, Module Federation with Webpack (microfrontends), TeamCity;
 - **Leadership skills:** Interviewing, setting take-home assessments, onboarding, gathering business requirements, prioritising tech-debt, team training;
 - **Development skills:** Domain-driven design, event-driven architecture, microservices architecture, code review, agile processes, unit testing, A/B testing, user-behaviour analytics, error monitoring.
 
-### **August 2015 – March 2020:** Mintel, London, UK
+<div class="break" />
 
-I started my software development career at the market research agency Mintel, gaining experience across many brand-new and decades-old in-production codebases, creating and enhancing web apps for searching, reading, and exporting long-form articles, and apps to present consumer survey data into tables, charts, and dashboards.
+### **August 2015 – March 2020:** Mintel (London, UK)
 
-After being promoted to a **technical lead** in March 2019, I successfully orchestrated a major project combining two of Mintel's existing core products, gathering requirements from the product development and design teams, and coordinating the development work with seventeen developers based in London, Chicago, and Shanghai.
+At the market research agency Mintel, I worked on multiple brand-new and decades-old in-production codebases. I created and enhanced web apps for searching, reading, and exporting long-form content, and apps to view consumer survey data in tables, charts, and dashboards.
+
+After being promoted to a **technical lead** in March 2019, I successfully orchestrated a major project combining two of Mintel's existing core products, coordinating the development work with seventeen developers based in London, Chicago, and Shanghai.
 
 - **Key Technologies:** JavaScript, React, Redux, Python, Django, Solr, Elasticsearch, Jenkins, Selenium, Bash scripting, Unix CLI utilities;
 - **Leadership skills:** Requirements gathering, tech-debt prioritisation, interviewing candidates, presenting talks and workshops;
 - **Development skills:** Agile processes, automated testing (unit, integration, browser, visual regression), pair programming, code review, UI design systems.
 
-<!-- <div class="break" /> -->
-
 ## Education
 
-### **2011–15: Queen Mary University of London**, London, UK
+### **2011–15: Queen Mary University of London** (London, UK)
 
 **Degree: Doctor of Philosophy (PhD)** in Theoretical Physics (String Theory)
 
-As a graduate student, I authored [multiple papers](https://arxiv.org/search/hep-th?searchtype=author&query=Garner%2C+D) published in peer-reviewed academic journals, gave talks at multiple academic institutions, and taught Physics undergraduate classes.
+As a graduate student, I authored [multiple papers](https://arxiv.org/search/hep-th?searchtype=author&query=Garner%2C+D) published in peer-reviewed academic journals, presented talks at multiple academic institutions, and led Physics undergraduate classes.
 
-### **2007–11: University of Cambridge** (Christ’s College), Cambridge, UK
+### **2007–11: University of Cambridge** (Cambridge, UK)
 
 **Degree: BA with MMath, Mathematical Tripos**, First Class/Honours Pass
 
