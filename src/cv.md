@@ -3,7 +3,9 @@ name: David Garner
 title: Technical Lead
 email: dprgarner@gmail.com
 description: >
-  I'm a full-stack web developer and technical lead based in London. My primary focus is front-end development with **TypeScript** and **React**, but I also have considerable professional experience in back-end development with **Node.js and Python**. I place a strong emphasis on quality in all of my code, and consider code review and automated testing to be essential parts of the development process.
+  I'm a full-stack web developer and technical lead based in London.
+  I have many years of experience with **TypeScript, Python, Node.js, and React**, and I'm comfortable working across the whole stack and the whole development life-cycle.
+  I place a strong emphasis on quality, collaboration, and ownership in my work, and consider code review and automated testing to be essential parts of the development process.
 cv: http://dprgarner.github.io
 github: https://github.com/dprgarner
 linkedin: http://linkedin.com/in/dprgarner
